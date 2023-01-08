@@ -15,6 +15,7 @@ app.use("/api/user", router);
 app.use("/api/movie", movieRouter);
 dotenv.config()
 MoviesDB();
+
 app.get("/honey",(req,res)=>{
   res.send("hello world")
 })
@@ -34,7 +35,5 @@ app.use(function (req, res, next) {
 app.listen(process.env.PORT, () => {
   console.log("this server is running on port 5000");
 });
-
-// !XBpN-.YymngL8h
-// https://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@github.com/AakashSoni1997/server.git
-// https://moviesaakash.herokuapp.com/
+// https://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@github.com/AakashSoni1997/server.git
+// https://moviesserverimdb.herokuapp.com/
