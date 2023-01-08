@@ -4,9 +4,6 @@
   "description": "i created movieapp",
   "main": "index.js",
   "type": "module",
-  "engines": {
-    "node" : "14.x"
-  },
   "scripts": {
     "start": "nodemon --experimental-modules --es-module-specifier-resolution=node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
