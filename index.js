@@ -6,7 +6,7 @@ import router from "./routes/user-routes.js";
 import cors from "cors";
 import dotenv from "dotenv"
 
-
+const PORT=5000
 
 const app = express();
 app.use(cors());
@@ -32,7 +32,7 @@ app.use(function (req, res, next) {
 });
 
 
-app.listen(process.env.PORT, () => {
+app.listen(PORT, () => {
   console.log("this server is running on port 5000");
 });
 // https://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@github.com/AakashSoni1997/server.git
