@@ -4,8 +4,8 @@ import dotenv from "dotenv";
 dotenv.config()
 
   const MoviesDB=()=>{
-    // mongoose.connect("mongodb://localhost:27017/moviesapp2022")
-    mongoose.connect(`${process.env.MONGO_URL}`)
+    //  mongoose.connect("mongodb://localhost:27017/moviesapp2022")
+    mongoose.connect(`mongodb+srv://aakash:as1997@movies-cluster.lnkqfix.mongodb.net/test`)
     .then(()=>{
         console.log("Server is connected to mongoDB atlas")
     })
